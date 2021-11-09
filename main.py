@@ -461,7 +461,7 @@ if __name__ == '__main__':
             if i[1] == "set":
                 number_set = i[2:]
                 for n in range(len(number_set)):
-                    number_set[n] = int(n)
+                    number_set[n] = int(number_set[n])
             elif i[1] == "solution":
                 solution = int(i[2])
             elif i[1] == "size":
